@@ -205,7 +205,7 @@ table {
 }
 
 .miHero {
-  background: url(assets\img\post-image.jpg) no-repeat center;
+  background: url(assets/img/post-image.jpg) no-repeat center;
   background-size: cover;
   min-height: 100vh;
 }
