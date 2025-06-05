@@ -1,0 +1,74 @@
+
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+// font-family: 'Roboto', sans-serif;
+// light   300
+// regular 400
+
+
+/*Playfair display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+// font-family: 'Playfair Display', serif;
+// black Italic  900
+// regular       400
+
+
+
+.texto-hero{
+    
+    
+    font-family: 'Playfair Display', serif;
+    font-size:$xx-large;
+    font-weight: 900;
+    color:$blanco;
+
+}
+
+.titulo-p{
+    font-family: 'Playfair Display', serif;
+    font-size:$large;
+    font-weight: 400;
+    color: $lightGray;
+}
+
+.texto-p{
+    font-family: 'Roboto', sans-serif;
+    font-size:$medium;
+    font-weight: 300;
+    color: $lightGray;
+    line-height: 3rem;
+    color: $nickel;
+}
+
+.titulo-carta{
+    font-family: 'Playfair Display', serif;
+    font-size:$x-large;
+    font-weight: 900;
+    color: $eeireBlack;
+}
+
+.texto-carta{
+    font-family: 'Roboto', sans-serif;
+    font-size:$medium;
+    font-weight: 400;
+    color: $spanishPink;
+    line-height: 2rem;
+}
+
+.texto-naomi{
+    font-family: 'Roboto', sans-serif;
+    font-size:$small;
+    font-weight: 400;
+    color: $lightGray;
+    line-height: 2rem;
+}
+
+.textoLi{
+    font-family: 'Roboto', sans-serif;
+    font-size:$large;
+    font-weight: 400;
+    
+}

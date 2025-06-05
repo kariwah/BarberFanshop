@@ -1,0 +1,105 @@
+/*Mobile*/
+@media screen and (max-width: 576px) {
+
+    .ver-p {
+        display: none;
+    }
+
+    /*Nav Mobile*/
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+        background-color: white;
+    }
+
+    li {
+        text-align: center;
+        padding: 20px;
+    }
+
+    /*Hero Moblie*/
+
+    .heroTextoMobile {
+        width: 90%;
+        text-align: center;
+        line-height: 6rem;
+    }
+
+    .heroTextoDesktop {
+        display: none;
+    }
+
+    /*Parrafo*/
+    .botones {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* Card Mobile*/
+
+
+    .card-img-top {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .card-body h1 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+    }
+
+    .card-body {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 576px) {
+
+    /*Navbar*/
+    .navbar-brand {
+        margin-left: 50px;
+    }
+
+    .navbar-nav {
+        margin-right: 150px;
+
+    }
+
+    li {
+        padding-right: 50px;
+    }
+
+    /*Hero*/
+    .heroTextoMobile {
+        display: none;
+
+    }
+
+    /*Parrafo*/
+    .botones {
+        display: block;
+    }
+
+    /*Card*/
+
+    .card-img-top {
+
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+    }
+
+
+}

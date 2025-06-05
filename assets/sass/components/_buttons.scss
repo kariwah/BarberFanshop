@@ -1,0 +1,39 @@
+
+.boton{
+    background-color: $nickel;
+    width: auto;
+    height: 50px;
+    padding: 12px;
+    color: $blanco;
+    border: none;
+    font-family: $fuenteBoton;
+    font-size: $medium;
+    border-radius: 80px;
+}
+
+.btn{
+    background-color: $blanco;
+    color: $eeireBlack;
+}
+
+.btnA{
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+    color: $nickel;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.btnB{
+    border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn,.btnA,.btnB{
+    border: 1.5px solid $lightGray ;
+    background-color: $blanco;
+    font-family: $fuenteBoton;
+    font-size: $small;
+}

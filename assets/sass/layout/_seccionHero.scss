@@ -1,0 +1,20 @@
+.miHero {
+  background: url(/assets/img/post-image.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.miHero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.heroTextoDesktop{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+ text-align: center;
+ line-height: 6rem;
+}
