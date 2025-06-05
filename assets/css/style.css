@@ -58,10 +58,13 @@ table {
 /*Playfair display*/
 .texto-hero {
   font-family: 'Playfair Display', serif;
-  font-size: 70px;
+  font-size: 3rem;
   font-weight: 900;
   color: #FFF;
+  line-height: 1.2;
 }
+
+
 
 .titulo-p {
   font-family: 'Playfair Display', serif;
